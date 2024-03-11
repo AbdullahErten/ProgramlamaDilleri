@@ -1,0 +1,2 @@
+i++: i sayısını şuanki değerini alır ve sonraki satırda arttırır.
+++i: i sayısını önce arttırır sonra yeni değerini alır.
