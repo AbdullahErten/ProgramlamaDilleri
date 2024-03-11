@@ -1,0 +1,11 @@
+
+public class IkiMesaj {
+    public static void main(String[] args) {
+
+        String msg1 = "Merhaba";
+	String msg2 = "Merhaba!";
+
+        System.out.print(msg1 "\n" + msg2);
+
+    }
+}
