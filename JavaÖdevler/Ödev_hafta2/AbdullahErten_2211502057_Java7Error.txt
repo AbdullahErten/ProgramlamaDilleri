@@ -1,0 +1,41 @@
+1. SYNTAX ERROR
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Merhaba Dünya!);
+    }
+}
+
+2. RUNTIME ERROR
+public class Main {
+    public static void main(String[] args) {
+        int[] dizi = new int[5];
+        System.out.println(dizi[10]);
+    }
+}
+
+3. LOGIC ERROR
+public class Main {
+    public static void main(String[] args) {
+        // İki sayının toplamını hesaplamak istiyoruz.
+        int sayi1 = 10;
+        int sayi2 = 20;
+        int toplam = sayi1 - sayi2; // Yanlışlıkla çıkarma işlemi yapılmış.
+        System.out.println("Sayıların toplamı: " + toplam);
+    }
+}
+
+4. COMPILATION ERROR
+public class Main {
+    public static void main(String[] args) {
+        Sistem.out.println("Merhaba Dünya!");
+    }
+}
+
+5. FONKSİYONEL HATALAR
+-Java’da fonksiyonel hatalar, programın beklenen işlevselliğini yerine getirememesi durumunda ortaya çıkan hatalardır.
+
+6. ARAYÜZ HATASI
+-Java’da bir arayüz hatası, genellikle bir sınıfın, arayüzde tanımlanan tüm yöntemleri uygulamaması durumunda ortaya çıkar.
+
+7. SEMANTİK HATA
+-Java’da semantik hata, kodun sözdizimsel olarak doğru olmasına rağmen beklenen işlevi yerine getirmemesi durumudur.
