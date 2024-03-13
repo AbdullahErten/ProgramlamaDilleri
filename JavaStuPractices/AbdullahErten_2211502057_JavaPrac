@@ -1,0 +1,35 @@
+class JavaPrac {
+    public static void main(String[] args) {
+        scanner input = new Scanner(System.in);
+        
+        int yas;
+        System.out.println("Yasi giriniz.");
+        yas = input.nextInt();
+        
+        String cinsiyet;
+        System.out.println("Cinsiyeti giriniz.");
+        cinsiyet = input.nextLine();
+        
+        String kisininAdi;
+        System.out.println("Adinizi giriniz.");
+        kisininAdi = input.nextLine();
+
+        
+        if(yas < 18)
+        {
+            if(yas > 16 && cinsiyet = erkek && kisininAdi[0]=B)
+            {
+                System.out.println("Evde otur.");
+            }
+            else
+            {
+                System.out.println("Disari cik.");
+            }
+        }
+        else
+        {
+            System.out.println("Disari cik.");
+        }
+        
+    }
+}
